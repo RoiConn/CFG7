@@ -1,2 +1,20 @@
 
-/* The CSS for the newsletter signup  */
+/* The CSS Fast, freezable, nourishing div  */
+div {
+    display: flex;
+    align-items: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1%;
+    justify-content: space-evenly;
+  }
+
+  .grid-item {
+    padding: 2px;
+    font-size: 30px;
+    justify-content: center;
+text-align: center;
+
+  }
