@@ -98,9 +98,7 @@ formstyle{
     text-align: center;
     
   }
-  body{
-    background-color: #8de095;
-  }
+ 
   #formdiv{
     text-align: center;
   }
@@ -121,4 +119,31 @@ formstyle{
   #linkstyle{
     color:yellow;
     font-size: 30px;
+  }
+  #imgrecipe{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    margin-left: 380px;
+  }
+  #recipeinfo{
+    margin-top: 330px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #titlestyle{
+    font-size: 20px;
+  }
+  #backgroundcolor{
+    background-color: rgb(192, 239, 130);
+  }
+  #recipetitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #recipetextsize{
+    font-size: 20px;
   }
