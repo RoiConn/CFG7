@@ -1,5 +1,32 @@
 
 /* The CSS Fast, freezable, nourishing div  */
+/* 
+.recipehead {
+  font-family: 'Tourney', sans-serif;
+  font-size: xx-large;
+} */
+
+
+
+/* headings */
+h1 {
+  font-family: 'Tourney', sans-serif;
+  font-size: 50px;}
+
+li {
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+li a {
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  border-spacing: 2px;
+  text-decoration: none;
+}
+
 div {
     display: flex;
     align-items: center;
@@ -16,5 +43,4 @@ div {
     font-size: 30px;
     justify-content: center;
 text-align: center;
-
-  }
+}
