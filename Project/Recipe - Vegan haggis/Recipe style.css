@@ -9,22 +9,26 @@
 
 
 /* headings */
-h1 {
+/* All navbar CSS  */
+.navbar {
+  display: flex
+}
+.navhead {
   font-family: 'Tourney', sans-serif;
-  font-size: 50px;}
+  font-size: 30px;
+}
+  
 
-li {
+.navitems {
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
   display: inline;
-  font-family: 'Open Sans', sans-serif;
-  justify-content: right;
   float: right;
+  justify-content: space-between;
+
 }
 
-h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
-li a {
+#nav a {
   color: black;
   text-align: left;
   padding: 14px 16px;
@@ -32,14 +36,26 @@ li a {
   text-decoration: none;
 }
 
+
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  justify-items: start;
+
+
 }
   .flex-col {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .rec-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     justify-content: center;
   }
 
