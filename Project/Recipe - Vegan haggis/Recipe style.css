@@ -11,8 +11,9 @@
 /* headings */
 /* All navbar CSS  */
 .navbar {
-  display: flex
+  display: inline-flexbox
 }
+
 .navhead {
   font-family: 'Tourney', sans-serif;
   font-size: 30px;
@@ -20,17 +21,18 @@
   
 
 .navitems {
-  font-family: 'Open Sans', sans-serif;
   list-style: none;
-  display: inline;
   float: right;
-  justify-content: space-between;
-
 }
+
+#nav {
+  display:inline;
+  font-family: 'Open Sans', sans-serif;
+
+}  
 
 #nav a {
   color: black;
-  text-align: left;
   padding: 14px 16px;
   border-spacing: 2px;
   text-decoration: none;
@@ -40,24 +42,23 @@
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  justify-items: start;
-
-
-}
-  .flex-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-between;
-  }
+  justify-content: space-evenly;
+  width: 100%;
 
   .rec-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     justify-content: center;
+  } 
+}
+  .rec-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
   }
+
 
 
 .mailing {
@@ -70,4 +71,4 @@
 .grid-container {
   display: inline-flexbox;
   justify-content: flex-end
-}
+} 
